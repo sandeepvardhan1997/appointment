@@ -1,0 +1,16 @@
+{
+  "slots": {
+    "slot1": {
+      "id": 1,
+      "time": "9 AM - 11 AM"
+    },
+    "slot2": {
+      "id": 2,
+      "time": "11 AM - 1 PM"
+    },
+    "slot3": {
+      "id": 3,
+      "time": "2 PM - 4 PM"
+    }
+  }
+}
