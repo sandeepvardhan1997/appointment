@@ -1,16 +1,1 @@
-{
-  "slots": {
-    "slot1": {
-      "id": 1,
-      "time": "9 AM - 11 AM"
-    },
-    "slot2": {
-      "id": 2,
-      "time": "11 AM - 1 PM"
-    },
-    "slot3": {
-      "id": 3,
-      "time": "2 PM - 4 PM"
-    }
-  }
-}
+{"screens":[{"data":{},"id":"RECOMMEND","layout":{"children":[{"children":[{"type":"TextSubheading","text":"Kindly Choose your preferred time."},{"type":"RadioButtonsGroup","label":"Choose one","name":"Choose_one_94c1d7","data-source":[{"id":"0_10AM_to_12PM","title":"10AM to 12PM"},{"id":"1_12PM_to_2PM","title":"12PM to 2PM"},{"id":"2_3PM_to_5PM","title":"3PM to 5PM"}],"required":true},{"label":"Continue","on-click-action":{"name":"complete","payload":{"screen_0_Choose_one_0":"${form.Choose_one_94c1d7}"}},"type":"Footer"}],"name":"flow_path","type":"Form"}],"type":"SingleColumnLayout"},"terminal":true,"title":"Bioqubiit Autozen"}],"version":"6.3"}
